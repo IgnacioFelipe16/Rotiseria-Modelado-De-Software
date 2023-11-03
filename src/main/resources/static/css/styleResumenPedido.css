@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+body {
+    background: url(../img/fondousuario1.jpg) fixed;
+   	background-repeat: no-repeat;
+   	background-size: 100%;
+   	
+   	display: flex;
+   	flex-direction: column;
+   	min-height: 100vh;
+}
+.titulo {
+	margin-top: 90px;
+}
+
+.titulo-productos, .titulo{
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    font-weight: bold;
+    background-color: #ffffff;
+    text-align: left;
+    width: fit-content;
+    box-shadow: 3px 4px 6px rgba(0,0,0,.7);
+}
+#datos-cliente{
+	color: rgb(0, 0, 0);
+    padding: 5px;
+    background-color: #ffffff;
+    text-align: left;
+    width: fit-content;
+    box-shadow: 3px 4px 6px rgba(0,0,0,.7);
+}
+#subtotal, #label-total{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.datosFinales {
+    margin-left: 40%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 3px 4px 6px rgba(0,0,0,.7);
+    position: relative;
+    text-align: center;
+    width: 300px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+#total{
+    border: none;
+    outline: none;
+    display: inline-block;
+    height: 35px;
+    width: 90px;
+    position: relative;
+    background-color: white;
+    border: 0;
+    font-size: 30px;
+    width: 110px;
+    font-weight: bolder;
+}
+#contenedor-total{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}

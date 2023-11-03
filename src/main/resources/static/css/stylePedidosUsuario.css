@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+body {
+    background: url(../img/fondousuario1.jpg) fixed;
+   	background-repeat: no-repeat;
+   	background-size: 100%;
+   	display: flex;
+   	flex-direction: column;
+   	min-height: 100vh;
+}
+
+.titulo {
+    margin-top: 80px;
+    font-weight: bolder;
+    background-color: white;
+    border-color: rgb(0, 0, 0);
+    text-align: center;
+    color: black;
+    padding: 25px;
+    box-shadow: 3px 4px 6px rgba(0,0,0,.7);
+    height: auto;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}

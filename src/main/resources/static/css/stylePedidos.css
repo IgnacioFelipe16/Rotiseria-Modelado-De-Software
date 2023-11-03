@@ -1,0 +1,14 @@
+body {
+    background: url(../img/fondo-admin.png) fixed;
+   	background-repeat: no-repeat;
+}
+
+.titulo {
+    color: #000000;
+    font-weight: bolder;
+    padding: 10px;
+    width: 25%;
+    text-align: start;
+    background-color: white;
+    border: solid black 2px;
+}
